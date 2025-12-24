@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Prata;
+    src: url(./assets/fonts/Prata/Prata-Regular.ttf);
+}
+
+*{
+    font-family: "Outfit";
+}
+a.active hr{
+    display: block;
+}
+
+.prata-regular {
+    font-family: "Parata", serif;
+    font-weight: 400;
+    font-size: normal;
+}
+
+@media (max-width:640px) {
+    a.active{
+        background-color: black;
+        color: white;
+    }
+}
