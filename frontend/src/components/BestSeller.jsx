@@ -12,7 +12,6 @@ const BestSeller = () => {
         setBestSeller(products.slice(0, 5));
     }, [products]);
 
-    console.log(bestSeller);
     
     return (
         <div className="my-10">
